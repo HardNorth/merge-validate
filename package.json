@@ -1,0 +1,29 @@
+{
+  "name": "merge-validate",
+  "version": "0.0.1",
+  "description": "A GitHub action for validating and merging branches. Makes it possible to enable branch protection and make pushes from github action pipelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --notify",
+    "build": "ncc build src/index.js -o build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardNorth/merge-validate.git"
+  },
+  "keywords": [
+    "GitHub",
+    "action",
+    "merge",
+    "merges",
+    "validation",
+    "validate",
+    "pipeline"
+  ],
+  "author": "Vadzim Hushchanskou",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HardNorth/merge-validate/issues"
+  },
+  "homepage": "https://github.com/HardNorth/merge-validate#readme"
+}
